@@ -7,7 +7,7 @@ featuresets:
 
 [build]
 image-file: arch/arm64/boot/Image
-signed-code: true
+debug-info: false
 vdso: true
 
 [image]
@@ -20,6 +20,10 @@ hardware: 64-bit ARMv8 machines
 [cloud-arm64_description]
 hardware: arm64 cloud
 hardware-long: cloud platforms supporting arm64 virtual machines
+
+[raspi-arm64_description]
+hardware: arm64 raspi
+hardware-long: raspberry pi arm64
 
 [arm64_image]
 

@@ -1,0 +1,2 @@
+# https://source.android.com/security/encryption/adiantum
+CONFIG_CRYPTO_ADIANTUM=y
