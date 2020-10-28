@@ -1,2 +1,6 @@
 # https://source.android.com/security/encryption/adiantum
 CONFIG_CRYPTO_ADIANTUM=y
+
+# of/configfs
+CONFIG_OF_OVERLAY=y
+CONFIG_OF_CONFIGFS=y

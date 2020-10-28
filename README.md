@@ -29,3 +29,11 @@ fakeroot make -f debian/rules source
 fakeroot make -f debian/rules.gen setup_${ARCH}_${FEATURESET}_${FLAVOUR}
 fakeroot make -f debian/rules.gen binary-arch_${ARCH}_${FEATURESET}_${FLAVOUR}
 ```
+
+## Customizations
+
+### devicetree-overlay
+
+<https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers.git/log/?h=topic/overlays>
+
+<https://elinux.org/R-Car/DT-Overlays>

@@ -130,3 +130,17 @@ bugfix/all/tools-include-uapi-fix-errno.h.patch
 debian/overlayfs-permit-mounts-in-userns.patch
 
 # ABI maintenance
+
+# of/configfs
+raspi/0001-OF-DT-Overlay-configfs-interface-v7.patch
+raspi/0002-gitignore-Ignore-DTB-files.patch
+raspi/0003-of-overlay-kobjectify-overlay-objects.patch
+raspi/0004-of-overlay-global-sysfs-enable-attribute.patch
+raspi/0005-Documentation-ABI-overlays-global-attributes.patch
+raspi/0006-Documentation-document-of_overlay_disable-parameter.patch
+raspi/0007-of-overlay-add-per-overlay-sysfs-attributes.patch
+raspi/0008-Documentation-ABI-overlays-per-overlay-docs.patch
+raspi/0009-of-rename-_node_sysfs-to-_node_post.patch
+raspi/0010-kbuild-Enable-DT-symbols-when-CONFIG_OF_OVERLAY-is-u.patch
+raspi/0011-kbuild-Create-a-rule-for-building-device-tree-overla.patch
+raspi/0012-kbuild-Create-a-rule-for-validating-device-tree-over.patch
